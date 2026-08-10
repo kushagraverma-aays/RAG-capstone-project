@@ -69,6 +69,8 @@ streamlit run app.py
 The app opens automatically at `http://localhost:8501`.
 
 ## Screenshot
+![Uploading image.png…]()
+
 
 ## Usage
 
