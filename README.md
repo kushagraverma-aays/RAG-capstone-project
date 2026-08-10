@@ -84,19 +84,6 @@ The app opens automatically at `http://localhost:8501`.
 5. Keep chatting — the full conversation stays visible. Use **🗑️ Clear chat** in the sidebar to start over without re-uploading.
 6. Uploading a new file resets the chat and re-indexes automatically.
 
-## UI Differences from the Original Version
-
-| Feature | Original | This Version |
-|---|---|---|
-| Layout | Single centered column | Wide layout with sidebar |
-| Interaction | Text input + button | Native chat interface (`st.chat_input` / `st.chat_message`) |
-| Document upload | Main page | Sidebar |
-| Settings (top-k, sources toggle) | Inline slider | Sidebar controls, including a source-visibility toggle |
-| History | Reverse-chronological Q&A blocks | Scrolling chat thread |
-| Reset | Re-upload only | Dedicated "Clear chat" button |
-
-The underlying retrieval and generation logic is identical — only presentation differs.
-
 ## Configuration
 
 Tweakable directly in `app.py`:
