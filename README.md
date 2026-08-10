@@ -46,7 +46,8 @@ rag-streamlit-app/
 
 **1. Move into the project folder:**
 ```bash
-cd rag-streamlit-app```
+cd rag-streamlit-app 
+```
 
 **2. Create and activate a virtual environment (recommended):**
 ```bash
